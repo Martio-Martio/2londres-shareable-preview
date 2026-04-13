@@ -1,6 +1,6 @@
 {
   "name": "@2londres/shareable-preview",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React component for shareable data preview with debug/user modes",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -12,7 +12,9 @@
       "require": "./dist/index.js"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch"
