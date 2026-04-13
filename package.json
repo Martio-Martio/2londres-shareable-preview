@@ -1,6 +1,6 @@
 {
   "name": "@2londres/shareable-preview",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React component for shareable data preview with debug/user modes",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
