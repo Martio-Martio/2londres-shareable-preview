@@ -19,6 +19,9 @@ Your project must have Tailwind CSS configured (the component uses Tailwind clas
 
 ## Basic usage
 
+<!-- TODO: Replace with your own recording -->
+![Basic usage](docs/assets/basic-usage.gif)
+
 ```tsx
 import { ShareablePreview } from "@2londres/shareable-preview";
 
@@ -67,6 +70,9 @@ With actions:
 
 Actions display as gradient buttons with icons and visual effects at the bottom of the preview.
 
+<!-- TODO: Replace with your own recording -->
+![Action buttons](docs/assets/action-buttons.gif)
+
 ### Action props
 
 | Prop | Type | Description |
@@ -106,6 +112,9 @@ Actions display as gradient buttons with icons and visual effects at the bottom 
 ```
 
 ## Custom views
+
+<!-- TODO: Replace with your own recording -->
+![Custom views with tabs](docs/assets/custom-views.gif)
 
 ### Single view (`customView`)
 
@@ -157,6 +166,9 @@ Each tab can have its **own actions**. If a view has no `actions`, the global ac
 
 ## Field filtering
 
+<!-- TODO: Replace with your own recording -->
+![Field filtering](docs/assets/field-filtering.gif)
+
 Options passed via `customViewProps` or `viewProps` (in `customViews`). Compatible with `UserView`.
 
 | Option | Type | Description |
@@ -186,6 +198,9 @@ const actions = createPreviewActions({
 ## Internationalization
 
 The package uses `labels` and `onNotify` for i18n without depending on react-i18next:
+
+<!-- TODO: Replace with your own recording -->
+![Internationalization](docs/assets/i18n.gif)
 
 ```tsx
 <ShareablePreview
